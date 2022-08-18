@@ -1,0 +1,59 @@
+.gridPrincipal{
+	display: grid;
+	grid-template-columns:33% 33% 33%;
+	grid-template-rows:auto auto auto auto ;
+	grid-template-areas:
+	"header header header" 
+	"encabezado encabezado encabezado"
+	"img img img"
+	"footer footer footer";}
+
+header
+	{grid-area: header;
+	background-image:url(../assets/img/backgroundHeader.jpg);
+	display: flex;
+	justify-content: space-between;
+}
+	
+nav ul li 
+	{list-style-type: none;
+	
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	display: inline;
+}
+.nombrePrincipal{
+	font-size: 60px;
+}
+
+body{
+	background-color: rgb(34, 88, 88);
+}
+
+a 
+	{text-decoration: none;}
+
+.encabezadoHome
+	{grid-area: encabezado;}
+.imgHome
+	{grid-area: img;}
+
+footer
+	{grid-area: footer;
+	display: flex;
+	justify-content: space-around;}
+
+main div p{
+	text-align: center;
+	color: white;}
+
+.bgColor
+{background-color: black}
+
+
+
+
+
+
+
