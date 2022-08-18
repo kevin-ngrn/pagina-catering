@@ -14,21 +14,31 @@ header
 	display: flex;
 	justify-content: space-between;
 }
-	
+
+.navFlex .nombrePrincipal{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
 nav ul li 
 	{list-style-type: none;
-	
 	padding: 10px;
 	margin: 10px;
 	width: 100%;
 	display: inline;
+	font-size: larger ;
 }
 .nombrePrincipal{
 	font-size: 60px;
+	padding: 0%;
+	margin: 0%;
 }
 
 body{
-	background-color: rgb(34, 88, 88);
+	background-image: url(../assets/img/backgroundBody.webp);
+	background-size: contain;
+
 }
 
 a 
