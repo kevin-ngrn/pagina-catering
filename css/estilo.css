@@ -16,23 +16,20 @@ header{
 	grid-area: header;
 	background-image:url(../assets/img/backgroundHeader.jpg);
 	display: flex;
-	justify-content: space-between;
-}
+	justify-content: space-between;}
 
-a 
-	{text-decoration: none;}
+a{
+	text-decoration: none;}
 
 .navFlex .nombrePrincipal{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
-}
+	align-items: flex-end;}
 
 .nombrePrincipal{
 	font-size: 60px;
 	padding-right: 2%;
-	margin: 0%;
-}
+	margin: 0%;}
 
 nav ul li {
 	list-style-type: none;
@@ -40,25 +37,22 @@ nav ul li {
 	margin: 10px;
 	width: 100%;
 	display: inline;
-	font-size: larger ;
-}
+	font-size: larger ;}
 
-.encabezadoHome{
+.encabezadoPages{
 	grid-area: encabezado;
 	text-align: center;
 	font-size: 40px;
 	color: bisque;
-	font-family: 'Times New Roman', Times, serif;
-}
+	font-family: 'Times New Roman', Times, serif;}
 
-.tituloHome{
-	color: black;	
-}
+.tituloPages{
+	color: black;	}
 
-main
-	{grid-area: main;}
+main{
+	grid-area: main;}
 
-.txtImg1, .txtImg2{
+.txtImg1Home, .txtImg2Home{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -66,18 +60,26 @@ main
 	padding: 30px;
 	margin: 10px;
 	color: bisque;
-	font-style: italic
-	;
-}
+	font-style: italic;}
 
-.ajusteTxt2{
-	padding-left: 20px;
-}
+.ajusteTxt2Home{
+	padding-left: 20px;}
 
-footer
-	{grid-area: footer;
+footer{
+	grid-area: footer;
 	display: flex;
 	justify-content: space-around;}
+
+.imgTxtNos{
+	display: flex;
+	align-items: center}
+
+.txtNos{
+	font-size: large;
+	color: bisque;
+	font-style: italic;
+	;
+}
 
 
 
