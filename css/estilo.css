@@ -5,15 +5,22 @@
 	grid-template-areas:
 	"header header header" 
 	"encabezado encabezado encabezado"
-	"img img img"
+	"main main main"
 	"footer footer footer";}
 
-header
-	{grid-area: header;
+body{
+	background-image: url(../assets/img/backgroundBody.webp);
+	background-size: contain;}
+
+header{
+	grid-area: header;
 	background-image:url(../assets/img/backgroundHeader.jpg);
 	display: flex;
 	justify-content: space-between;
 }
+
+a 
+	{text-decoration: none;}
 
 .navFlex .nombrePrincipal{
 	display: flex;
@@ -21,45 +28,59 @@ header
 	align-items: flex-end;
 }
 
-nav ul li 
-	{list-style-type: none;
+.nombrePrincipal{
+	font-size: 60px;
+	padding-right: 2%;
+	margin: 0%;
+}
+
+nav ul li {
+	list-style-type: none;
 	padding: 10px;
 	margin: 10px;
 	width: 100%;
 	display: inline;
 	font-size: larger ;
 }
-.nombrePrincipal{
-	font-size: 60px;
-	padding: 0%;
-	margin: 0%;
+
+.encabezadoHome{
+	grid-area: encabezado;
+	text-align: center;
+	font-size: 40px;
+	color: bisque;
+	font-family: 'Times New Roman', Times, serif;
 }
 
-body{
-	background-image: url(../assets/img/backgroundBody.webp);
-	background-size: contain;
-
+.tituloHome{
+	color: black;	
 }
 
-a 
-	{text-decoration: none;}
+main
+	{grid-area: main;}
 
-.encabezadoHome
-	{grid-area: encabezado;}
-.imgHome
-	{grid-area: img;}
+.txtImg1, .txtImg2{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: xx-large;
+	padding: 30px;
+	margin: 10px;
+	color: bisque;
+	font-style: italic
+	;
+}
+
+.ajusteTxt2{
+	padding-left: 20px;
+}
 
 footer
 	{grid-area: footer;
 	display: flex;
 	justify-content: space-around;}
 
-main div p{
-	text-align: center;
-	color: white;}
 
-.bgColor
-{background-color: black}
+
 
 
 
