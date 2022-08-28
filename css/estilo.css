@@ -21,8 +21,6 @@ header{
 a{
 	text-decoration: none;}
 
-
-
 .navFlex .nombrePrincipal{
 	display: flex;
 	flex-direction: column;
@@ -50,7 +48,7 @@ nav ul li {
 	font-weight: bold;}
 
 .tituloPages{
-	color: black;	}
+	color: black;}
 
 main{
 	grid-area: main;}
@@ -71,22 +69,29 @@ footer{
 	display: flex;
 	justify-content: space-around;}
 
+.paddingLogos{
+	padding: 10px;
+	margin-top: 10px;}
+
 .logosRRSS{
-	display: flex;
-}
+	display: flex;}
 
 .imgTxtNos{
 	display: flex;
-	flex-direction: column-reverse;}
+	flex-direction: column;
+	align-items: center;}
 
 .txtNos{
 	font-size: 100%;
 	color: bisque;
 	font-style: italic;
-	font-weight: bold;}
+	font-weight: bold;
+	padding-left: 10%;
+	padding-right: 10%;}
 
 .imgWidth{
 	width: 100%;}
+
 
 	
 @media only screen and (max-width: 768px){
@@ -131,12 +136,16 @@ img{
 }
 
 .logoFooter{
-	width: 35%;
+	width: 30%;
 }
 
 .logosRRSS{
-	width: 40%;
+	width: 30%;
 	display: flex;}
+
+.paddingLogos{
+	padding: 4px;
+	margin-top: 25px;}
 
 
 }
