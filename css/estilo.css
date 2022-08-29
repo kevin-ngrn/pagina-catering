@@ -69,9 +69,15 @@ footer{
 	display: flex;
 	justify-content: space-around;}
 
-.paddingLogos{
+.paddingYTransLogos{
 	padding: 10px;
-	margin-top: 10px;}
+	margin-top: 10px;
+	width: 25px;
+	transition: 1s;}
+
+.paddingYTransLogos:hover{
+	width: 45px;
+}
 
 .logosRRSS{
 	display: flex;}
@@ -143,7 +149,7 @@ img{
 	width: 30%;
 	display: flex;}
 
-.paddingLogos{
+.paddingYTransLogos{
 	padding: 4px;
 	margin-top: 25px;}
 
