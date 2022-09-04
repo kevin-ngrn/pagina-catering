@@ -95,6 +95,17 @@ footer{
 	padding-left: 10%;
 	padding-right: 10%;}
 
+.txtServ{
+	color: bisque;
+	font-style: italic;
+	font-weight: bold;
+	width: 65%;}
+
+.txtVidServ{
+	display: flex;
+	flex-direction: column;
+	align-items: center;}
+
 .imgWidth{
 	width: 100%;}
 
@@ -130,6 +141,10 @@ header{
 	padding: 15px;
 	margin: 5px;}
 
+p{
+	font-size: small;
+}
+
 .txtImg2Home{
 	flex-direction: column-reverse;}
 
@@ -153,6 +168,11 @@ img{
 	padding: 4px;
 	margin-top: 25px;}
 
+.txtServ{
+	width: 100%;}
+
+.videoServicio{
+	width: auto;}
 
 }
 
