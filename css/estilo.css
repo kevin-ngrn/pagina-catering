@@ -57,12 +57,16 @@ main{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	font-size: 100%;
+	font-size: large;
 	padding: 30px;
 	margin: 10px;
 	color: bisque;
 	font-style: italic;
 	font-weight: bold;}
+
+.imgHome{
+	width: 100%;
+}
 
 footer{
 	grid-area: footer;
@@ -95,6 +99,12 @@ footer{
 	padding-left: 10%;
 	padding-right: 10%;}
 
+.imgNos{
+	display: block;
+	margin: auto;
+	align-items: center;
+	width: 100%;}
+
 .txtServ{
 	color: bisque;
 	font-style: italic;
@@ -106,12 +116,19 @@ footer{
 	flex-direction: column;
 	align-items: center;}
 
-.imgWidth{
-	width: 100%;}
+.videoServicio{
+	margin-top: 5%;
+	margin-bottom: 5%;}
+
+.txtProd, .ajusteTxtHome{
+	width: 100%;
+	margin: 20px;}
 
 
-	
+	/*VISTA MOBILE*/
+
 @media only screen and (max-width: 768px){
+
 .gridPrincipal{
 	display: grid;
 	grid-template-columns: auto;
@@ -165,6 +182,7 @@ img{
 	display: flex;}
 
 .paddingYTransLogos{
+	width: 25%;
 	padding: 4px;
 	margin-top: 25px;}
 
@@ -173,10 +191,72 @@ img{
 
 .videoServicio{
 	width: auto;}
-
 }
 
 
+	/*VISTA TABLET*/
+
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+
+.gridPrincipal{
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"header header header"
+	"encabezado encabezado encabezado"
+	"main main main"
+	"footer footer footer";}
+
+header{
+	flex-direction: column;
+	align-items: center;}
+	
+.nombrePrincipalMobile{
+	display: none;}
+
+.navFlex{
+	width: 100%;
+	font-size: 100%;
+	font-weight: bold;}
+
+.txtImg1Home, .txtImg2Home{
+	flex-direction: column;
+	font-size: medium;
+	font-weight: bold;
+	padding: 15px;
+	margin: 5px;}
+
+p{
+	font-size: small;}
+
+.txtImg2Home{
+	flex-direction: column-reverse;}
+
+.encabezadoPages{
+	font-size: 100%;
+	font-weight: bold;}
+
+img{
+	display: block;
+	margin: auto;
+	width: 70%;}
+
+.logoFooter{
+	width: 30%;}
+
+.logosRRSS{
+	display: flex;
+	align-items: center;}
+
+.paddingYTransLogos{
+	width: 50%;
+	padding: 4px;
+	margin-top: 25px;}
+
+.videoServicio{
+	width: auto;}
+}
 
 
 
