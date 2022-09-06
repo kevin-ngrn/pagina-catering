@@ -64,14 +64,17 @@ main{
 	font-style: italic;
 	font-weight: bold;}
 
+.txtImg2Home{
+	margin-top: 5%;}
+
 .imgHome{
-	width: 100%;
-}
+	width: 100%;}
 
 footer{
 	grid-area: footer;
 	display: flex;
-	justify-content: space-around;}
+	justify-content: space-around;
+	margin-top: 10%;}
 
 .paddingYTransLogos{
 	padding: 10px;
@@ -92,7 +95,7 @@ footer{
 	align-items: center;}
 
 .txtNos{
-	font-size: 100%;
+	font-size: large;
 	color: bisque;
 	font-style: italic;
 	font-weight: bold;
@@ -103,7 +106,9 @@ footer{
 	display: block;
 	margin: auto;
 	align-items: center;
-	width: 100%;}
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 10%;}
 
 .txtServ{
 	color: bisque;
@@ -123,6 +128,23 @@ footer{
 .txtProd, .ajusteTxtHome{
 	width: 100%;
 	margin: 20px;}
+
+.formImg{
+	display: flex;
+	justify-content: center;
+}
+
+.ajusteForm{
+	margin: 20px;
+	margin-top: 50px;
+	font-weight: bold;}
+
+.imgCont{
+	width: 100%}
+
+.ajusteTel{
+	margin-left: 20px;
+	font-weight: bold;}
 
 
 	/*VISTA MOBILE*/
@@ -190,8 +212,26 @@ img{
 	width: 100%;}
 
 .videoServicio{
-	width: auto;}
+	width: 100%;}
+
+.imgCont{
+	display: none;
 }
+
+.formImg{
+	background-image: url(../assets/img/imgcontacto.jpg);}
+
+.ajusteForm{
+	margin: 10px;
+	margin-top: 25px;
+	font-weight: bold;}
+
+.txtFormMobile{
+	color: bisque;
+}
+}
+
+
 
 
 	/*VISTA TABLET*/

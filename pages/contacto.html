@@ -41,23 +41,33 @@
 				</div>
 		</div>
 	</header>
-	
+
+	<div class="encabezadoPages">
+		<h2 class="tituloPages">CONTACTO</h2>
+		<p>~ Puedes solicitar nuestro servicio a través de Email o disipar tus dudas completando el siguiente formulario ~</p>
+	</div>
+
 	<main>
-		<div>
-			<h1>CONTACTO</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deserunt provident delectus fuga animi culpa inventore. Obcaecati corporis exercitationem nesciunt aperiam distinctio! Et, excepturi. Consequuntur, eius doloribus delectus autem vitae.</p>
+		<div class="formImg">
+			<div>
+				<form action="#">
+				<label for="ingresesunombre"></label>
+            	<input class="ajusteForm" placeholder= "Ingrese su nombre" id="ingresesunombre" type="text" name="ingresesunombre"><br>
+            	<label for="ingresesuemail"></label>
+            	<input class="ajusteForm" placeholder="Ingrese su Email" id="email" type="email" name="email"><br>
+            	<label for="telefono"></label>
+            	<input class="ajusteForm" placeholder="Telefono" id="telefono" type="tel" name="telefono"><br>
+            	<textarea class="ajusteForm" placeholder="Preguntas..."></textarea><br>
+            	<input class="ajusteForm" type="submit" name="Enviar">
+            	<input class="ajusteForm" type="reset" name="Restablecer">
+        		</form>
+				<p class="ajusteForm txtFormMobile">Email: Newcatering@gmail.com</p>
+				<p class="ajusteTel txtFormMobile">Tel: 0-000-000</p>
+			</div>
+			<div>
+				<img class="imgCont" src="../assets/img/imgcontacto.jpg" alt="imagendecontacto">
+			</div>
 		</div>
-		<form action="#">
-			<label for="nombreyapellido">Nombre:</label>
-            <input id="nombreyapellido" type="text" name="nombreyapellido"><br>
-            <label for="mail">Mail:</label>
-            <input id="email" type="email" name="email"><br>
-            <label for="telefono">Telefono:</label>
-            <input id="telefono" type="tel" name="telefono"><br>
-            <textarea placeholder="Preguntas..."></textarea><br>
-            <input type="submit" name="Enviar">
-            <input type="reset" name="Restablecer">
-        </form> 
     </main>
 	
     <footer>
