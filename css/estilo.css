@@ -37,7 +37,7 @@ nav ul li {
 	margin: 10px;
 	width: 100%;
 	display: inline;
-	font-size: larger ;}
+	font-size: larger;}
 
 .encabezadoPages{
 	grid-area: encabezado;
@@ -45,7 +45,8 @@ nav ul li {
 	font-size: 100%;
 	color: bisque;
 	font-family: 'Times New Roman', Times, serif;
-	font-weight: bold;}
+	font-weight: bold;
+	font-size: large;}
 
 .tituloPages{
 	color: black;}
@@ -64,11 +65,18 @@ main{
 	font-style: italic;
 	font-weight: bold;}
 
-.txtImg2Home{
-	margin-top: 5%;}
+.nombreCitado{
+	display: flex;
+	justify-content: flex-end;
+	font-size: medium;
+	margin-right: 5%;
+	margin-top: 10%;}
 
 .imgHome{
 	width: 100%;}
+
+.txtImg2Home{
+	margin-top: 5%;}
 
 footer{
 	grid-area: footer;
@@ -83,8 +91,7 @@ footer{
 	transition: 1s;}
 
 .paddingYTransLogos:hover{
-	width: 45px;
-}
+	width: 45px;}
 
 .logosRRSS{
 	display: flex;}
@@ -114,7 +121,8 @@ footer{
 	color: bisque;
 	font-style: italic;
 	font-weight: bold;
-	width: 65%;}
+	width: 65%;
+	font-size: large;}
 
 .txtVidServ{
 	display: flex;
@@ -125,14 +133,17 @@ footer{
 	margin-top: 5%;
 	margin-bottom: 5%;}
 
-.txtProd, .ajusteTxtHome{
-	width: 100%;
+.txtProd{
+	width: 80%;
 	margin: 20px;}
+
+.ajusteTxtHome{
+	margin: 20px;
+}
 
 .formImg{
 	display: flex;
-	justify-content: center;
-}
+	justify-content: center;}
 
 .ajusteForm{
 	margin: 20px;
@@ -175,14 +186,13 @@ header{
 
 .txtImg1Home, .txtImg2Home{
 	flex-direction: column;
-	font-size: 30px;
+	font-size: small;
 	font-weight: bold;
 	padding: 15px;
 	margin: 5px;}
 
-p{
-	font-size: small;
-}
+.nombreCitado{
+	font-size: small;}
 
 .txtImg2Home{
 	flex-direction: column-reverse;}
@@ -192,12 +202,10 @@ p{
 	font-weight: bold;}
 
 img{
-	width: 100%;
-}
+	width: 100%;}
 
 .logoFooter{
-	width: 30%;
-}
+	width: 30%;}
 
 .logosRRSS{
 	width: 30%;
@@ -215,8 +223,7 @@ img{
 	width: 100%;}
 
 .imgCont{
-	display: none;
-}
+	display: none;}
 
 .formImg{
 	background-image: url(../assets/img/imgcontacto.jpg);}
@@ -227,12 +234,8 @@ img{
 	font-weight: bold;}
 
 .txtFormMobile{
-	color: bisque;
+	color: bisque;}
 }
-}
-
-
-
 
 	/*VISTA TABLET*/
 
@@ -262,13 +265,10 @@ header{
 
 .txtImg1Home, .txtImg2Home{
 	flex-direction: column;
-	font-size: medium;
+	font-size: large;
 	font-weight: bold;
 	padding: 15px;
 	margin: 5px;}
-
-p{
-	font-size: small;}
 
 .txtImg2Home{
 	flex-direction: column-reverse;}
@@ -281,6 +281,10 @@ img{
 	display: block;
 	margin: auto;
 	width: 70%;}
+
+.imgHome{
+	width: 80%;
+}
 
 .logoFooter{
 	width: 30%;}
