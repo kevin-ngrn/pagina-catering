@@ -162,7 +162,7 @@ footer{
 
 @media only screen and (max-width: 768px){
 
-.gridPrincipal{
+	.gridPrincipal{
 	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
@@ -201,6 +201,9 @@ header{
 	font-size: 100%;
 	font-weight: bold;}
 
+.txtNos{
+	font-size: small;}
+
 img{
 	width: 100%;}
 
@@ -217,10 +220,12 @@ img{
 	margin-top: 25px;}
 
 .txtServ{
+	font-size: medium;
 	width: 100%;}
 
 .videoServicio{
-	width: 100%;}
+	display: contents;
+	width: 50%;}
 
 .imgCont{
 	display: none;}
@@ -276,6 +281,10 @@ header{
 .encabezadoPages{
 	font-size: 100%;
 	font-weight: bold;}
+
+.txtNos{
+	font-size: medium;
+}
 
 img{
 	display: block;
