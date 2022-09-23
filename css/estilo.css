@@ -58,7 +58,7 @@ main{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	font-size: large;
+	font-size: x-large;
 	padding: 30px;
 	margin: 10px;
 	color: bisque;
@@ -122,7 +122,7 @@ footer{
 	font-style: italic;
 	font-weight: bold;
 	width: 65%;
-	font-size: large;}
+	font-size: x-large;}
 
 .txtVidServ{
 	display: flex;
@@ -139,6 +139,10 @@ footer{
 
 .ajusteTxtHome{
 	margin: 20px;
+	width: 85%;}
+
+.div90{
+	width: 90%;
 }
 
 .formImg{
@@ -224,8 +228,10 @@ img{
 	width: 100%;}
 
 .videoServicio{
-	display: contents;
-	width: 50%;}
+	display: contents}
+
+.video{
+	width: 100%;}
 
 .imgCont{
 	display: none;}
@@ -283,8 +289,7 @@ header{
 	font-weight: bold;}
 
 .txtNos{
-	font-size: medium;
-}
+	font-size: medium;}
 
 img{
 	display: block;
@@ -292,7 +297,10 @@ img{
 	width: 70%;}
 
 .imgHome{
-	width: 80%;
+	width: 80%;}
+
+.txtServ{
+	font-size: large;
 }
 
 .logoFooter{
